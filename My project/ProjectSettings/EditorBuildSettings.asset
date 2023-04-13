@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Jerri.unity
+    guid: d590b6dd590d043188ba3f9817ab11bb
   m_configObjects: {}
