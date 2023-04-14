@@ -6,7 +6,10 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.Bloom
     - UnityEngine.Rendering.PostProcessing.ChromaticAberration
     - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
     - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
     - UnityEngine.Rendering.PostProcessing.PostProcessLayer
     - UnityEngine.Rendering.PostProcessing.PostProcessProfile
     - UnityEngine.Rendering.PostProcessing.PostProcessResources
@@ -21,25 +24,19 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   serializedClasses:
     Unity.Postprocessing.Runtime:
-    - UnityEngine.Rendering.PostProcessing.AmbientOcclusionModeParameter
-    - UnityEngine.Rendering.PostProcessing.AmbientOcclusionQualityParameter
     - UnityEngine.Rendering.PostProcessing.BoolParameter
     - UnityEngine.Rendering.PostProcessing.ColorParameter
-    - UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter
     - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
     - UnityEngine.Rendering.PostProcessing.FloatParameter
     - UnityEngine.Rendering.PostProcessing.Fog
     - UnityEngine.Rendering.PostProcessing.GradingModeParameter
     - UnityEngine.Rendering.PostProcessing.HistogramMonitor
-    - UnityEngine.Rendering.PostProcessing.IntParameter
     - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
     - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
     - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
     - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
     - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
     - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
-    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionPresetParameter
-    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflectionResolutionParameter
     - UnityEngine.Rendering.PostProcessing.Spline
     - UnityEngine.Rendering.PostProcessing.SplineParameter
     - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
@@ -93,17 +90,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 3380}
-    - Class: 114
       Script: {instanceID: 3730}
-    - Class: 114
-      Script: {instanceID: 4764}
     - Class: 114
       Script: {instanceID: 4914}
     - Class: 114
       Script: {instanceID: 5070}
-    - Class: 114
-      Script: {instanceID: 5102}
     - Class: 114
       Script: {instanceID: 5424}
     - Class: 114
