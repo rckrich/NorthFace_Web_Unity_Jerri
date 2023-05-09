@@ -17974,6 +17974,15 @@ struct SignatureArrayType_t2363B762F8C412C7C4054B75639099E0DFA8B915  : public Si
 	bool ____isMultiDim_12;
 };
 
+// WaterMovement
+struct WaterMovement_tF8EB89C71240843167039C9B7EA54F818B214311  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Single WaterMovement::speed
+	float ___speed_4;
+	// UnityEngine.Mesh WaterMovement::mesh
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___mesh_5;
+};
+
 // Mono.Security.ASN1
 
 // Mono.Security.ASN1
@@ -25324,6 +25333,10 @@ struct RuntimeType_tB1A69257E7A00D07AB0CABD8D5BA7D83E0DC9EC1_StaticFields
 // System.Reflection.SignatureArrayType
 
 // System.Reflection.SignatureArrayType
+
+// WaterMovement
+
+// WaterMovement
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -29421,3 +29434,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2237[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2242[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2250[2] = 
+{
+	static_cast<int32_t>(offsetof(WaterMovement_tF8EB89C71240843167039C9B7EA54F818B214311, ___speed_4)),static_cast<int32_t>(offsetof(WaterMovement_tF8EB89C71240843167039C9B7EA54F818B214311, ___mesh_5)),};
