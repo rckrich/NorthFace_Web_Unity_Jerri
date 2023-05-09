@@ -15,7 +15,7 @@ E:/02_Usuario/Documentos/GitHub/NorthFace_Web_Unity_Jerri/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63784
+51142
 Successfully changed project path to: E:/02_Usuario/Documentos/GitHub/NorthFace_Web_Unity_Jerri/My project
 E:/02_Usuario/Documentos/GitHub/NorthFace_Web_Unity_Jerri/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/02_Usuario/Documentos/GitHub/NorthFace_Web_Unity_Jerri/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27488] Host "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 1113441955 [EditorId] 1113441955 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9MMM94V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21592] Host "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 2434614733 [EditorId] 2434614733 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9MMM94V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27488] Host "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 1113441955 [EditorId] 1113441955 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9MMM94V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21592] Host "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 2434614733 [EditorId] 2434614733 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9MMM94V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 63.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 75.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,95 +67,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007623 seconds.
+Registered in 0.007831 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.502 seconds
+- Completed reload, in  0.517 seconds
 Domain Reload Profiling:
-	ReloadAssembly (503ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (517ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (351ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (77ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (217ms)
+			SetupLoadedEditorAssemblies (224ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
+				InitializePlatformSupportModulesInManaged (45ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004626 seconds.
+Registered in 0.004685 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\02_Usuario\Documentos\GitHub\NorthFace_Web_Unity_Jerri\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\02_Usuario\Documentos\GitHub\NorthFace_Web_Unity_Jerri\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.937 seconds
 Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (602ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (637ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (212ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (278ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (259.1 KB). Loaded Objects now: 3945.
-Memory consumption went from 126.0 MB to 125.8 MB.
-Total: 2.938100 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.157100 ms MarkObjects: 2.384600 ms  DeleteObjects: 0.135200 ms)
+Memory consumption went from 126.1 MB to 125.8 MB.
+Total: 2.832500 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.154400 ms MarkObjects: 2.297400 ms  DeleteObjects: 0.120000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,25 +169,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11117.937893 seconds.
-  path: Assets/Jerri3D/OtrasCosas/stone_small_abc.fbx
-  artifactKey: Guid(bc1720e63b1c3a541a3881b1857fd3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerri3D/OtrasCosas/stone_small_abc.fbx using Guid(bc1720e63b1c3a541a3881b1857fd3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844cd39a0e8dd0def033875ed1ec83ff') in 0.162201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 98170.655444 seconds.
   path: Assets/Jerri3D/OtrasCosas/piso.mat
   artifactKey: Guid(6cb2622a985cee649a9e953a71f4f984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerri3D/OtrasCosas/piso.mat using Guid(6cb2622a985cee649a9e953a71f4f984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf4d89903fd54fe7e07f638b9697c42') in 0.177248 seconds 
+Start importing Assets/Jerri3D/OtrasCosas/piso.mat using Guid(6cb2622a985cee649a9e953a71f4f984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021f236a38cd575ad259f007dc959e70') in 0.132949 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Jerri3D/Northface_Water/New Material.mat
-  artifactKey: Guid(025ae67d009ac9a4994507a1c9ef4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerri3D/Northface_Water/New Material.mat using Guid(025ae67d009ac9a4994507a1c9ef4286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1899a881cc288af0b81ff03f46ad5029') in 0.009012 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jerri3D/OtrasCosas/roca_2.mat
+  artifactKey: Guid(99d42c0a94547164d8b8d02d1bb2ecc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerri3D/OtrasCosas/roca_2.mat using Guid(99d42c0a94547164d8b8d02d1bb2ecc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eacb2263acd47d8e388b3a5c39d82df') in 0.019360 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Jerri3D/OtrasCosas/roca_1.mat
-  artifactKey: Guid(60910a34430cf054990b7d90bedadfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Jerri3D/OtrasCosas/roca_1.mat using Guid(60910a34430cf054990b7d90bedadfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa0c036f28e0cf5cbb078c2033ce26c') in 0.020163 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Jerri3D/NorthFace_Fire/Hdri_hot1.mat
+  artifactKey: Guid(0ec3a289180371745a5f90089897ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerri3D/NorthFace_Fire/Hdri_hot1.mat using Guid(0ec3a289180371745a5f90089897ba70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ee4ef20cb554d4528d92561bc2bfd3') in 0.064923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jerri3D/hdri1.mat
+  artifactKey: Guid(db36f3d38d3da7b4b8c0de0353f19063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerri3D/hdri1.mat using Guid(db36f3d38d3da7b4b8c0de0353f19063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5dcfac33ee6bae6eba995da5d57dc6') in 0.159028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.500843 seconds.
+  path: Assets/Jerri3D/NorthFace_Fire/Sm_NorthFace_Hot_Full.prefab
+  artifactKey: Guid(0ec608053bbb42943a036203c9a8795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jerri3D/NorthFace_Fire/Sm_NorthFace_Hot_Full.prefab using Guid(0ec608053bbb42943a036203c9a8795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4863559711d734d1e54990c557d7f211') in 0.099469 seconds 
